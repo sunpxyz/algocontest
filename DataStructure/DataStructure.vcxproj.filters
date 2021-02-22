@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\ch3_list_stack_queue">
+      <UniqueIdentifier>{12d7c977-e952-4fef-ab4c-527a33a4af3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ch5_">
+      <UniqueIdentifier>{948ba977-9ac0-4871-8726-a27d54448397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="source\ch6_">
+      <UniqueIdentifier>{fdf273f3-b01f-4f64-acad-4ebd8a636319}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="List.cpp">
+      <Filter>source\ch3_list_stack_queue</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_01.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_02.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_03.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_04.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_05.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_06.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_07.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_08.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_09.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_10.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_11.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_12.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_13.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_05_14.cpp">
+      <Filter>source\ch5_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_01.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_02.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_03.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_04.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_05.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_06.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_07.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_08.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_09.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_10.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_11.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_12.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_13.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_14.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_17.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="example_06_18.cpp">
+      <Filter>source\ch6_</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise_3_1.cpp">
+      <Filter>source\ch3_list_stack_queue</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="List.h">
+      <Filter>source\ch3_list_stack_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>source\ch3_list_stack_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>source\ch3_list_stack_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="example_05.h">
+      <Filter>source\ch5_</Filter>
+    </ClInclude>
+    <ClInclude Include="example_06.h">
+      <Filter>source\ch6_</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

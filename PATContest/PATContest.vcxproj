@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{44E11668-860F-468D-85F9-3E0AA92E49AE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PATContest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="exercise\bellman_ford.cpp" />
+    <ClCompile Include="exercise\bfs.cpp" />
+    <ClCompile Include="exercise\bfs_2.cpp" />
+    <ClCompile Include="exercise\bst.cpp" />
+    <ClCompile Include="exercise\dfs.cpp" />
+    <ClCompile Include="exercise\dp.cpp" />
+    <ClCompile Include="exercise\dp_lcs.cpp" />
+    <ClCompile Include="exercise\dp_lis.cpp" />
+    <ClCompile Include="exercise\dp_max_ret_substr.cpp" />
+    <ClCompile Include="exercise\dp_max_sub_seq_sum.cpp" />
+    <ClCompile Include="exercise\floyd.cpp" />
+    <ClCompile Include="exercise\full_permutation.cpp" />
+    <ClCompile Include="exercise\graph.cpp" />
+    <ClCompile Include="exercise\kruskal.cpp" />
+    <ClCompile Include="exercise\prim.cpp" />
+    <ClCompile Include="exercise\rand_select.cpp" />
+    <ClCompile Include="exercise\stl.cpp" />
+    <ClCompile Include="exercise\test.cpp" />
+    <ClCompile Include="exercise\topological_sort.cpp" />
+    <ClCompile Include="exercise\tree.cpp" />
+    <ClCompile Include="exercise\ufs.cpp" />
+    <ClCompile Include="exercise\use_ufs.cpp" />
+    <ClCompile Include="pat_a\pat_a_1003.cpp" />
+    <ClCompile Include="pat_a\pat_a_1020.cpp" />
+    <ClCompile Include="pat_a\pat_a_1025.cpp" />
+    <ClCompile Include="pat_a\pat_a_1030.cpp" />
+    <ClCompile Include="pat_a\pat_a_1031.cpp" />
+    <ClCompile Include="pat_a\pat_a_1032.cpp" />
+    <ClCompile Include="pat_a\pat_a_1033.cpp" />
+    <ClCompile Include="pat_a\pat_a_1034.cpp" />
+    <ClCompile Include="pat_a\pat_a_1043.cpp" />
+    <ClCompile Include="pat_a\pat_a_1052.cpp" />
+    <ClCompile Include="pat_a\pat_a_1053.cpp" />
+    <ClCompile Include="pat_a\pat_a_1059.cpp" />
+    <ClCompile Include="pat_a\pat_a_1060.cpp" />
+    <ClCompile Include="pat_a\pat_a_1076.cpp" />
+    <ClCompile Include="pat_a\pat_a_1093.cpp" />
+    <ClCompile Include="pat_b\pat_b_1001.cpp" />
+    <ClCompile Include="pat_b\pat_b_1002.cpp" />
+    <ClCompile Include="pat_b\pat_b_1003.cpp" />
+    <ClCompile Include="pat_b\pat_b_1004.cpp" />
+    <ClCompile Include="pat_b\pat_b_1005.cpp" />
+    <ClCompile Include="pat_b\pat_b_1006.cpp" />
+    <ClCompile Include="pat_b\pat_b_1007_ng.cpp" />
+    <ClCompile Include="pat_b\pat_b_1008_ng.cpp" />
+    <ClCompile Include="pat_b\pat_b_1009.cpp" />
+    <ClCompile Include="pat_b\pat_b_1010_ng.cpp" />
+    <ClCompile Include="pat_b\pat_b_1011.cpp" />
+    <ClCompile Include="pat_b\pat_b_1012_ng.cpp" />
+    <ClCompile Include="pat_b\pat_b_1013.cpp" />
+    <ClCompile Include="pat_b\pat_b_1014_ng.cpp" />
+    <ClCompile Include="pat_b\pat_b_1015_ng.cpp" />
+    <ClCompile Include="pat_b\pat_b_1016.cpp" />
+    <ClCompile Include="pat_b\pat_b_1017_ng.cpp" />
+    <ClCompile Include="pat_b\pat_b_1018_ng.cpp" />
+    <ClCompile Include="pat_b\pat_b_1019.cpp" />
+    <ClCompile Include="pat_b\pat_b_1020.cpp" />
+    <ClCompile Include="pat_b\pat_b_1021.cpp" />
+    <ClCompile Include="pat_b\pat_b_1022.cpp" />
+    <ClCompile Include="pat_b\pat_b_1023.cpp" />
+    <ClCompile Include="pat_b\pat_b_1026.cpp" />
+    <ClCompile Include="pat_b\pat_b_1031.cpp" />
+    <ClCompile Include="pat_b\pat_b_1032.cpp" />
+    <ClCompile Include="pat_b\pat_b_1036.cpp" />
+    <ClCompile Include="pat_b\pat_b_1037.cpp" />
+    <ClCompile Include="pat_b\pat_b_1039.cpp" />
+    <ClCompile Include="pat_b\pat_b_1040.cpp" />
+    <ClCompile Include="pat_b\pat_b_1041.cpp" />
+    <ClCompile Include="pat_b\pat_b_1042.cpp" />
+    <ClCompile Include="pat_b\pat_b_1043.cpp" />
+    <ClCompile Include="pat_b\pat_b_1046.cpp" />
+    <ClCompile Include="pat_b\pat_b_1047.cpp" />
+    <ClCompile Include="pat_b\pat_b_1051.cpp" />
+    <ClCompile Include="pat_b\pat_b_1056.cpp" />
+    <ClCompile Include="pat_b\pat_b_1061.cpp" />
+    <ClCompile Include="pat_b\pat_b_1063.cpp" />
+    <ClCompile Include="pat_b\pat_b_1066.cpp" />
+    <ClCompile Include="pat_b\pat_b_1076.cpp" />
+    <ClCompile Include="pat_b\pat_b_1082.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

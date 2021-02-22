@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\ch01">
+      <UniqueIdentifier>{4efde2eb-3ff9-4ac8-a1ed-74251c7ae15f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ch02">
+      <UniqueIdentifier>{959aa4b9-b1e7-4867-9269-0d0f9a9d1453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ch03">
+      <UniqueIdentifier>{ae242a48-d8ab-4cf9-85f3-d63144d87873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\ch05">
+      <UniqueIdentifier>{549f8c34-de86-48aa-99b7-d5589e4d2aec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prog_01_01.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_02.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_03.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_04.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_05.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_06.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_07.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_08.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_11.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_14.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_a.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_01_b.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_01.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_02.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_03.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_04.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_05.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_06.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_07.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_08.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_09.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_10.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_11.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_02_12.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_01_01.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_01_02.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_01_03.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_01_04.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_01_05.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_01_06.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_01_07.cpp">
+      <Filter>Source\ch01</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_02_01.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_02_02.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_02_03.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_02_04.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_02_05.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="solu_02_06.cpp">
+      <Filter>Source\ch02</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_03_01.cpp">
+      <Filter>Source\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_03_02.cpp">
+      <Filter>Source\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_03_03.cpp">
+      <Filter>Source\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_03_04.cpp">
+      <Filter>Source\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_03_05.cpp">
+      <Filter>Source\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_03_06.cpp">
+      <Filter>Source\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_03_07.cpp">
+      <Filter>Source\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source\ch03</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_05_01.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_05_02.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_05_03.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_05_04.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="samp_05_01.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="samp_05_02.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="samp_05_03.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="samp_05_04.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="samp_05_05.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="samp_05_06.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="samp_05_07.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+    <ClCompile Include="prog_05_05.cpp">
+      <Filter>Source\ch05</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

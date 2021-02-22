@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="pat_a">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="pat_b">
+      <UniqueIdentifier>{0e27b76f-2e64-4d90-9895-66d37f0c4958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="exercise">
+      <UniqueIdentifier>{9a119b87-6b45-4c34-9fa1-98e3889f4fac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="exercise\bellman_ford.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\bfs.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\bfs_2.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\bst.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\dfs.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\dp.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\dp_lcs.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\dp_lis.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\dp_max_ret_substr.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\dp_max_sub_seq_sum.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\floyd.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\full_permutation.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\graph.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\kruskal.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\prim.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\rand_select.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\stl.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\test.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\topological_sort.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\tree.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\ufs.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise\use_ufs.cpp">
+      <Filter>exercise</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1001.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1002.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1003.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1004.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1005.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1006.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1007_ng.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1008_ng.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1009.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1010_ng.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1011.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1012_ng.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1013.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1014_ng.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1015_ng.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1016.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1017_ng.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1018_ng.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1019.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1020.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1021.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1022.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1023.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1026.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1031.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1032.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1036.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1037.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1039.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1040.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1041.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1042.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1043.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1046.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1047.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1051.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1056.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1061.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1063.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1066.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1076.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_b\pat_b_1082.cpp">
+      <Filter>pat_b</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1003.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1020.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1025.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1030.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1031.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1032.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1033.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1034.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1043.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1052.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1053.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1059.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1060.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1076.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+    <ClCompile Include="pat_a\pat_a_1093.cpp">
+      <Filter>pat_a</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

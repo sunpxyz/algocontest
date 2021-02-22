@@ -1,3 +1,7 @@
+# TempFiles
+Debug
+*.vs
+
 # Prerequisites
 *.d
 
