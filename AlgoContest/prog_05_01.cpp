@@ -10,7 +10,7 @@ using namespace std;
 
 const int maxn = 100 + 10;
 int A[maxn];
-/*
+//
 int main() {
 	long a, b;
 	while (cin >> a >> b) {
@@ -19,4 +19,4 @@ int main() {
 
 	return 0;
 }
-*/
+//
